@@ -6,6 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AgriLearnNetwork</title>
+  <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+<script>
+	function loadGoogleTranslate()
+	{
+		new google.translate.TranslateElement("myid")
+	}
+</script>
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="style.css" />
   
@@ -24,7 +31,7 @@
 </head>
 
 <body>
-  
+  <div id="newdiv"
   <header class="header">
     <img src="images/favicon.png" alt="logo" style="height:50px; width:50px; margin-right:10px;" >
     <a href="#" class="logo" style="margin-inline-end:auto;"><h3>AgriLearnNetwork</h3>  </a>
@@ -520,6 +527,7 @@ const mobileNumberInput = document.getElementById('mobileNumber');
       }
       v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
   })(document, 'script');
+</div>
 </script>
 </body>
 
